@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "roboto", "open sans";
+}
+
+.chat-window {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactos {
+  max-width: 20%;
+}
+
+.foto-contactos {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+#foto-usuario {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.lista-contactos {
+  list-style-type: none;
+}
+
+.lista-contactos li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 10px;
+  margin: 0;
+}
+
+.lista-contactos li div {
+  padding: 10px 0px 0px 10px;
+}
+
+.personal {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.estado-personal {
+  font-size: 14px;
+}
+
+.maria {
+  display: flex;
+}
+
+.foto-principal {
+  max-width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+aside {
+  padding: 0;
+  width: 20%;
+  overflow-y: auto;
+  height: 100vh;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.boton button {
+  background-color: #a491d2;
+  color: white;
+  border: none;
+  padding: 10px 40px 10px 40px;
+  border-radius: 0;
+}
+
+.personal,
+.boton,
+.lista-contactos li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0 0 10px 0;
+}
+
+.pantalla-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e8ebe4;
+}
+
+.datos-usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.íconos {
+  display: flex;
+  flex-direction: row;
+}
+
+.central-chat {
+  width: 200px;
+  height: auto;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.usuario {
+  display: flex;
+  justify-content: space-between;
+}
